@@ -4,25 +4,206 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
 <body class="grid-container">
     <aside class="sidebar">
-        <div class="sidebar-container">
-            <div class="logo">
+        <div class="title">
+            <i class="fa-solid fa-hashtag"></i>
+            <a href="#" class="text">HashBoard</a>
+        </div>
 
+        <div class="menu">
+            <div class="menu-item">
+                <i class="fa-solid fa-house"></i>
+                <a href="#">Home</a>
             </div>
-            
-            <h1 class="site-title"></h1>
+            <div class="menu-item">
+                <i class="fa-solid fa-address-card"></i>
+                <a href="#">Profile</a>
+            </div>
+            <div class="menu-item">
+                <i class="fa-solid fa-message"></i>
+                <a href="#">Messages</a>
+            </div>
+            <div class="menu-item">
+                <i class="fa-solid fa-clock-rotate-left"></i>
+                <a href="#">History</a>
+            </div>
+            <div class="menu-item">
+                <i class="fa-solid fa-list-check"></i>
+                <a href="#">Tasks</a>
+            </div>
+            <div class="menu-item">
+                <i class="fa-solid fa-users"></i>
+                <a href="#">Communities</a>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="menu-item">
+                <i class="fa-solid fa-gear"></i>
+                <a href="#">Settings</a>
+            </div>
+            <div class="menu-item">
+                <i class="fa-solid fa-headset"></i>
+                <a href="#">Support</a>
+            </div>
+            <div class="menu-item">
+                <i class="fa-solid fa-shield-halved"></i>
+                <a href="#">Privacy</a>
+            </div>
         </div>
     </aside>
 
     <header class="header">
-        test2
+        <div class="header-top">
+            <div class="search">
+                <div class="dashboard-text">Dashboard</div>
+                <input type="search" name="search" id="search-bar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="user-notification">
+                <i class="fa-solid fa-calendar-days"></i>
+                <i class="fa-solid fa-bell"></i>
+                <a href="#"><img src="https://img.freepik.com/free-psd/3d-rendering-boy-avatar-emoji_23-2150603408.jpg?t=st=1739903851~exp=1739907451~hmac=1170100782aa530639e36ce48e197169bd78c27d828028ad4db6c79848a2cf16&w=740" alt="Avatar" class="avatar-top"></a>
+                <a href="#" class="name-top">Skibbidy Bap</a>
+            </div>
+        </div>
+
+        <div class="header-bottom">
+            <div class="user-info">
+                <a href="#"><img src="https://img.freepik.com/free-psd/3d-rendering-boy-avatar-emoji_23-2150603408.jpg?t=st=1739903851~exp=1739907451~hmac=1170100782aa530639e36ce48e197169bd78c27d828028ad4db6c79848a2cf16&w=740" alt="Avatar" class="avatar-bottom"></a>
+                <div class="name-bottom">
+                    <div class="greetings">
+                        <div class="top">Hi there,</div>
+                        <div class="bottom"> Skibbidy Bap (@SkibbidyBoi)</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="buttons">
+                <button class="button-style">New</button>
+                <button class="button-style">Upload</button>
+                <button class="button-style">Share</button>
+            </div> 
+        </div>
     </header>
 
     <main class="main">
-        test3
+        <div class="projects">
+            <div class="title-prj title-main-style">Your Projects</div>
+
+            <div class="card-container">
+                <div class="cards card1">
+                    <div class="card-title-left">Super Cool Project</div>
+                    <div class="card-paragraph-left">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo suscipit enim eaque itaque rem esse aliquid quo, consectetur voluptate, commodi perferendis a molestias? Illo vero itaque consectetur doloremque aspernatur totam.</div>
+                    <div class="icons-left">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-share-nodes"></i>
+                    </div>
+                </div>
+                <div class="cards card2">
+                    <div class="card-title-left">Less Cool Project</div>
+                    <div class="card-paragraph-left">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo autem ipsum repellendus ipsam, laborum doloremque deserunt modi voluptas quam! Repudiandae saepe sunt porro aliquid veniam minima suscipit voluptatem nostrum ducimus?</div>
+                    <div class="icons-left">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-share-nodes"></i>
+                    </div>
+                </div>
+                <div class="cards card3">
+                    <div class="card-title-left">Impossible App</div>
+                    <div class="card-paragraph-left">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos debitis consectetur odit, porro magnam quidem hic quisquam temporibus ratione. Ducimus similique quidem omnis eos quaerat repudiandae asperiores magnam explicabo odio!</div>
+                    <div class="icons-left">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-share-nodes"></i>
+                    </div>
+                </div>
+                <div class="cards card4">
+                    <div class="card-title-left">Easy Peasy App</div>
+                    <div class="card-paragraph-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias magni dolorum non accusantium deleniti veritatis, incidunt quibusdam necessitatibus temporibus ut dolore ullam tenetur obcaecati, sit architecto illum. Consectetur, sunt voluptate!</div>
+                    <div class="icons-left">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-share-nodes"></i>
+                    </div>
+                </div>
+                <div class="cards card5">
+                    <div class="card-title-left">Ad Blocker</div>
+                    <div class="card-paragraph-left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque nemo alias culpa, quos autem fugit, rem esse id eum ipsum ad sunt debitis quisquam et perferendis eius minus! Totam, nisi?</div>
+                    <div class="icons-left">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-share-nodes"></i>
+                    </div>
+                </div>
+                <div class="cards card6">
+                    <div class="card-title-left">Money Maker</div>
+                    <div class="card-paragraph-left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque nemo alias culpa, quos autem fugit, rem esse id eum ipsum ad sunt debitis quisquam et perferendis eius minus! Totam, nisi?</div>
+                    <div class="icons-left">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-share-nodes"></i>
+                    </div>
+                </div>
+            </div>
+        </div>   
+
+        <div class="ann-trending">
+            <div class="title-ann title-main-style">Announcements</div>
+
+            <div class="card-ann">
+                <div class="ann-item">
+                    <div class="card-title-right">Site Maintanance</div>
+                    <div class="card-paragraph-right">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At eum repudiandae officia repellendus ratione nobis eaque pariatur fuga facere esse voluptatum...</div>
+                </div>
+                <div class="ann-item">
+                    <div class="card-title-right">Community Share Day</div>
+                    <div class="card-paragraph-right">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At eum repudiandae officia repellendus ratione nobis eaque pariatur fuga facere esse voluptatum...</div>
+                </div>
+                <div class="ann-item">
+                    <div class="card-title-right">Updates Privacy Policy</div>
+                    <div class="card-paragraph-right">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque nemo alias culpa, quos autem fugit, rem esse id eum ipsum ad sunt debitis quisquam et perferendis eius minus! Totam, nisi?</div>
+                </div>
+            </div>
+
+            <div class="title-trending title-main-style">Trending</div>
+
+            <div class="card-trending">
+                <div class="trending-item">
+                    <a href="#"><img src="https://img.freepik.com/psd-gratis/rendering-3d-del-personaggio-dell-avatar_23-2150611722.jpg?t=st=1740155230~exp=1740158830~hmac=dd5aafcc33b6d5396d552ab65b181f5a26961facb4f1f13af3d0abb67d6ada66&w=740" alt="Avatar" class="avatar-trending"></a>
+                    <div class="trending-user">
+                        <div class="trending-user-name">@PurpleBob</div>
+                        <div class="trending-user-app">World Peace Builder</div>
+                    </div>
+                </div>
+                <div class="trending-item">
+                    <a href="#"><img src="https://img.freepik.com/psd-gratis/rendering-3d-dello-stile-dei-capelli-per-la-progettazione-dell-avatar_23-2151869145.jpg" alt="Avatar" class="avatar-trending"></a>
+                    <div class="trending-user">
+                        <div class="trending-user-name">@YellowBroski</div>
+                        <div class="trending-user-app">Super Cool Project</div>
+                    </div>
+                </div>
+                <div class="trending-item">
+                    <a href="#"><img src="https://img.freepik.com/psd-gratis/illustrazione-3d-di-persona-con-occhiali-da-sole_23-2149436178.jpg" alt="Avatar" class="avatar-trending"></a>
+                    <div class="trending-user">
+                        <div class="trending-user-name">@WatchMeEyes</div>
+                        <div class="trending-user-app">Life Changing App</div>
+                    </div>
+                </div>
+                <div class="trending-item">
+                    <a href="#"><img src="https://img.freepik.com/psd-gratis/rendering-3d-dello-stile-dei-capelli-per-la-progettazione-dell-avatar_23-2151869149.jpg" alt="Avatar" class="avatar-trending"></a>
+                    <div class="trending-user">
+                        <div class="trending-user-name">@SpikyPinks</div>
+                        <div class="trending-user-app">No Trafic Maker</div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 </body>
 </html>
